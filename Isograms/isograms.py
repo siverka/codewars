@@ -18,13 +18,13 @@ def is_isogram(word: str):
 
 class Test_Is_isogram(TestCase):
     def test_is_isogram_1(self):
-        assert is_isogram('') == True
+        assert is_isogram('')
 
     def test_is_isogram_2(self):
-        assert is_isogram("Dermatoglyphics") == True
+        assert is_isogram("Dermatoglyphics")
 
     def test_is_isogram_3(self):
-        assert is_isogram('aba') == False
+        assert not is_isogram('aba')
 
     def test_is_isogram_4(self):
-        assert is_isogram('moOse') == False
+        assert not is_isogram('moOse')
