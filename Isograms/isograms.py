@@ -5,6 +5,7 @@ Implement a function that determines whether a string that contains only letters
 Assume the empty string is an isogram. Ignore letter case.
 """
 
+
 def is_isogram(word: str):
     word = word.lower()
     if not word:
