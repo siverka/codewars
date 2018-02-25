@@ -1,5 +1,6 @@
 from unittest import TestCase
-from mumbling import accum
+from Mumbling.mumbling import accum
+
 
 class TestAccum(TestCase):
     def test_accum_1(self):

@@ -1,5 +1,5 @@
 from unittest import TestCase
-from validate_credit_card_number import validate
+from ValidateCreditCardNumber.validate_credit_card_number import validate
 
 
 class TestValidate(TestCase):

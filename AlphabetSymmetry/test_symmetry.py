@@ -1,5 +1,6 @@
 from unittest import TestCase
-from alphabet_symmetry import symmetry
+from AlphabetSymmetry.alphabet_symmetry import symmetry
+
 
 class TestSymmetry(TestCase):
     def test_symmetry_1(self):

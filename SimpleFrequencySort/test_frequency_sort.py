@@ -1,8 +1,8 @@
 from unittest import TestCase
-from simple_frequency_sort import frequency_sort
+from SimpleFrequencySort.simple_frequency_sort import frequency_sort
 
 
-class TestFrequency_sort(TestCase):
+class TestFrequencySort(TestCase):
     def test_frequency_sort_1(self):
         assert frequency_sort([2,3,5,3,7,9,5,3,7]) == [3,3,3,5,5,7,7,2,9]
 

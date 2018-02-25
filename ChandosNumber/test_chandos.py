@@ -1,5 +1,5 @@
 from unittest import TestCase
-from chandos_number import chandos
+from ChandosNumber.chandos_number import chandos
 
 
 class TestChandos(TestCase):

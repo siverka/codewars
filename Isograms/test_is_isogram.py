@@ -1,8 +1,8 @@
 from unittest import TestCase
-from isograms import is_isogram
+from Isograms.isograms import is_isogram
 
 
-class Test_Is_isogram(TestCase):
+class TestIsIsogram(TestCase):
     def test_is_isogram_1(self):
         assert is_isogram('')
 

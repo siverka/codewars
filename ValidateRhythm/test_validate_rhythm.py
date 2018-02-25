@@ -1,8 +1,8 @@
 from unittest import TestCase
-from validate_rhythm import validate_rhythm
+from ValidateRhythm.validate_rhythm import validate_rhythm
 
 
-class TestValidate_rhythm(TestCase):
+class TestValidateRhythm(TestCase):
     def test_validate_rhythm_01(self):
         assert validate_rhythm([4, 4], '4444|88888888|22|2488|1') == 'Valid rhythm'
 

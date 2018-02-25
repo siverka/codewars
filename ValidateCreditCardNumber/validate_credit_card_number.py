@@ -32,4 +32,4 @@ def validate(number):
     i = 0 if len(digits) % 2 == 0 else 1
     digits[i::2] = [d * 2 for d in digits[i::2]]
     digits = [d if d < 10 else d - 9 for d in digits]
-    return(sum(digits) % 10 == 0)
+    return sum(digits) % 10 == 0

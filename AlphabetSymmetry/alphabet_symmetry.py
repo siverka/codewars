@@ -12,6 +12,7 @@ Input will consist of alphabet characters, both uppercase and lowercase. No spac
 def symmetry(words):
     from string import ascii_lowercase
     letters = {w: i + 1 for i, w in enumerate(ascii_lowercase)}
+
     def n_sym(word):
         return sum(letters[w] == i + 1 for i, w in enumerate(word.lower()))
     return [n_sym(w) for w in words]
